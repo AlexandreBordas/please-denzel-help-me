@@ -78,6 +78,9 @@ const thirdDirector = directors[1];
 console.log(duplicate(['Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child']));
 // ❯ ['Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child', 'Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child']
 
+const duplicate = (arr) => {
+  return [...arr, ...arr]
+};
 
 // Q10. Refactor the current ES5-style function `police` in ES6-style.
 const police = function (names) {
