@@ -25,6 +25,9 @@ const stage = {
   'year': '2010'
 };
 
+stage.name = "A Raisin in the Sun";
+stage.year = "2014";
+
 // Q5. Change the `movie` "glory" to "Training Day" using square bracket notation
 const awards = {
   'movie': 'glory'
