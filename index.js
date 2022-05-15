@@ -150,3 +150,5 @@ const request = async () => {
 // I find it beautiful that everyone has its own approach of a problem and that nowadays tools make it possible for anyone to code their own way.
 
 // Q20. Last question: could you explain me - in your terms - why the title of the course is "Web Application Architecture(s)" and not "Web Application Architecture"?
+// The title of this course is Web Application Architectures with an S to Architecture because we were told during the first class that there was no rightful way and not a single way to code a web application :
+//many big companies nowadays all use web applications and they all have their own achitecture, yet it still works and is efficient.
