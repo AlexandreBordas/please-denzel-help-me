@@ -147,5 +147,6 @@ const request = async () => {
 //This project consists of coding an easy version of the Monopoly game. I'm not so proud of it because the project seemed way too easy to do and was way too simplified.
 
 // Q19. What are some things you like about the developer tools you use?
+// I find it beautiful that everyone has its own approach of a problem and that nowadays tools make it possible for anyone to code their own way.
 
 // Q20. Last question: could you explain me - in your terms - why the title of the course is "Web Application Architecture(s)" and not "Web Application Architecture"?
