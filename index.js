@@ -136,7 +136,10 @@ const request = async () => {
 //https://www.ikonpass.com/
 
 // Q17. Describe an ESILV project that you worked on that you’re proud of?
-
+//Python Project : Seoul-Bike-Location
+//This project consists in the final project of the course "Python for Data Analysis" being part of our degree at ESILV. We were given a dataset to work with.
+//The goal of this project was to explore and analyse the dataset by applying tools and skills acquired along the course.
+//We used Jupyter Notebook to visualize our data and then used some Machine Learning models in order to make predictions.
 
 
 // Q18. Describe an ESILV project that you worked on that you’re not so proud of?
