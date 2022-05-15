@@ -143,6 +143,8 @@ const request = async () => {
 
 
 // Q18. Describe an ESILV project that you worked on that you’re not so proud of?
+// C# Project : Monopoly
+//This project consists of coding an easy version of the Monopoly game. I'm not so proud of it because the project seemed way too easy to do and was way too simplified.
 
 // Q19. What are some things you like about the developer tools you use?
 
