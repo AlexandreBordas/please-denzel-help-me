@@ -106,15 +106,17 @@ document.querySelectorAll('#credits strong a');
 // We are performing a GET http request to the given URL, it returns a json object, with the infos of Zach Shirey
 
 // Q14. Refactor the following codebase with a promise notation
-fs.readFile(filePath, function(err, data) {
-  if (err) {
-    // handle the error, the return is important here
-    // so execution stops here
-    return console.log(err)
-  }
-  // use the data object
-  console.log(data)
-})
+fs.readFile(filePath, function (err, data) {
+  return new Promise((resolve, reject) => {
+    if (err) {
+      // handle the error, the return is important here
+      // so execution stops here
+      return reject(err)
+    }
+    // use the data object
+    resolve(data)
+  })
+});
 
 // Q15. Refactor the following codebase with async/await notation
 fetch('http://api.tvmaze.com/search/people?q=denzel+washington')
