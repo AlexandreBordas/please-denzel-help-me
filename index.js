@@ -93,6 +93,7 @@ console.log(police(chorus));
 
 // Q11. Related to the https://www.tvmaze.com/people/66167/denzel-washington link
 // What's the query selector to get all Cast Credits titles (Live with Kelly & Ryan, The Late Show with Stephen Colbert...).
+document.querySelectorAll('#credits strong a');
 
 // Q12. Related to the https://www.tvmaze.com/people/66167/denzel-washington link
 // How many http requests are performed to render the page?
