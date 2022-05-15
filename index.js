@@ -10,6 +10,11 @@ const inspirational = `Is ${actor} an inspirational actor?`;
 // family has been `married` on "1983" (Number)
 // family is not `presidentOfTheUnitedStates` (boolean)
 // family has `children` called "John David", "Katia", "Olivia" and "Malcolm" (array of strings)
+const family = {
+  married: '1983',
+  presidentOfTheUnitedStates: false,
+  children: ["John David", "Katia", "Olivia", "Malcolm"]
+};
 
 // Q4. Change
 // * the `name` stage to "A Raisin in the Sun"
