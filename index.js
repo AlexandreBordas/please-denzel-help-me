@@ -97,6 +97,7 @@ document.querySelectorAll('#credits strong a');
 
 // Q12. Related to the https://www.tvmaze.com/people/66167/denzel-washington link
 // How many http requests are performed to render the page?
+// 188 requests
 
 // Q13. Related to the following api call with "curl"
 // ❯ curl "http://api.tvmaze.com/people/6616"
