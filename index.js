@@ -43,6 +43,13 @@ awards['movie'] = "Training Day";
 // * Power (1986)
 // * Cry Freedom (1987)
 // * For Queen and Countryy (1988)
+const earlywork = {
+  'Carbon Copy': '1981',
+  'A Soldier Story': '1984',
+  Power: '1986',
+  'Cry Freedom': '1987',
+  'For Queen and Countryy': '1988'
+};
 
 // Q7. Return a new array from `debaters` with all item in uppercase
 const debaters = ['we do', 'what we have to do', 'in order to do', 'what we want to do'];
