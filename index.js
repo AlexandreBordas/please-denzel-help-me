@@ -131,8 +131,13 @@ const request = async () => {
 };
 
 // Q16. Give me at least 3 memorable websites that engage to continue (because of nice UX/UI AND avoid to give me facebook, airbnb etc...)
+//https://www.xxii.fr/
+//https://www.nurturedigital.com/
+//https://www.ikonpass.com/
 
 // Q17. Describe an ESILV project that you worked on that you’re proud of?
+
+
 
 // Q18. Describe an ESILV project that you worked on that you’re not so proud of?
 
