@@ -119,20 +119,16 @@ fs.readFile(filePath, function (err, data) {
 });
 
 // Q15. Refactor the following codebase with async/await notation
-fetch('http://api.tvmaze.com/search/people?q=denzel+washington')
-  .then(response => {
-    return response.json();
-  })
-  .then(data => {
-    const {person} = data[0];
-    const {id} = person;
+const request = async () => {
+  const response = await fetch('http://api.tvmaze.com/search/people?q=denzel+washington')
+  const data = await response.json()
 
-    return fetch(`http://api.tvmaze.com/people/${id}/castcredits?embed=show`);
-  })
-  .then(response => {
-    return response.json();
-  })
-  .then(console.log);
+  const { person } = data[0]
+  const { id } = person
+
+  const res = await fetch(`http://api.tvmaze.com/people/${id}/castcredits?embed=show`);
+  console.log(await res.json())
+};
 
 // Q16. Give me at least 3 memorable websites that engage to continue (because of nice UX/UI AND avoid to give me facebook, airbnb etc...)
 
