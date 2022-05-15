@@ -103,6 +103,8 @@ document.querySelectorAll('#credits strong a');
 // ❯ curl "http://api.tvmaze.com/people/6616"
 // Could you describe and explain the response?
 
+// We are performing a GET http request to the given URL, it returns a json object, with the infos of Zach Shirey
+
 // Q14. Refactor the following codebase with a promise notation
 fs.readFile(filePath, function(err, data) {
   if (err) {
