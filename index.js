@@ -83,14 +83,7 @@ const duplicate = (arr) => {
 };
 
 // Q10. Refactor the current ES5-style function `police` in ES6-style.
-const police = function (names) {
-  const results = [];
-
-  for (let i = 0; i < names.length; i++) {
-    results.push(names[i] + 'I am the police');
-  }
-  return results;
-};
+const police = (names) => names.map(name => `${name} I am the police`);
 
 const quotes = ['You will never see the light of... ', 'I run shit around here ', 'King Kong aint got shit on me '];
 
